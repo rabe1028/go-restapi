@@ -8,7 +8,9 @@ curl -XGET -H 'Content-Type:application/json' https://resttesthelloworld.herokua
 
 # ファイルの構成
 
-- docker-compose.yml
 - Dockerfile
+    Goの環境を作成するためのDockerfile
 - heroku.yml
+    herokuでDockerを動かすためのFile
 - main.go
+    mainプログラム
